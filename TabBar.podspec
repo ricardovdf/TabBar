@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "11.0"
   s.requires_arc = true
 
-  # s.source = { :git => "https://github.com/ricardovdf/TabBar.git", :tag => "#{s.version}" }
+  s.source = { :git => "https://github.com/ricardovdf/TabBar.git", :tag => "#{s.version}" }
   # s.source = { :path => '.' }
   s.source_files  = "TabBar", "TabBar/**/*.{h,m,swift}"
   
