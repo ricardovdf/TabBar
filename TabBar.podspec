@@ -16,4 +16,6 @@ Pod::Spec.new do |s|
   
   s.dependency 'SnapKit', '~> 4.0.0'
 
+  s.swift_version = "3.2"
+
 end
